@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Registration form</title>
+</head>
+
+<body>
+    <form name="test" method="post" action="input1.php">
+        <h1> Swimming pool registration form </h1>
+        <p>
+            <b>Name:</b>
+            <br>
+            <input type="text">
+        </p>
+        <p>
+            <b>Create password:</b>
+            <br>
+            <input type="password">
+            <p>
+                <b>What kind of swimming lane do you use:</b>
+                <br>
+                <input type="radio" name="lane" value="swimming-lane-1"> Swimming lane 1
+                <Br>
+                <input type="radio" name="lane" value="swimming-lane-2"> Swimming lane 2
+                <Br>
+                <input type="radio" name="lane" value="swimming-lane-3"> Swimming lane 3
+                <br>
+            </p>
+            <p>
+                <b>Date:</b>
+                <input type="date" id="start" name="swimming-start" value="2021-06-07" min="2021-01-01" max="2022-12-31">
+            </p>
+            <p>Comment
+                <br>
+                <textarea name="comment" cols="40" rows="3"></textarea>
+            </p>
+            <p>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </p>
+            <a href="./catalog.html">Catalog</a>
+            <a href="./swimming_schedule.html">Schedule</a>
+    </form>
+</body>
+
+</html>
