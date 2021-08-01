@@ -1,0 +1,97 @@
+/* Обнуление */
+*, 
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    
+    background-color:#111862;
+}
+*/
+
+/* .registration-block {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 600px;
+    background-color: aliceblue;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 44px;
+
+    color: #3A3D5B;
+    border-radius: 10px;
+}
+*/
+.registration-block {
+    background-color: peru
+}
+
+.brand1 {
+    /* item1 1 */
+
+    position: static;
+    width: 110px;
+    height: 95px;
+
+    background: url(./brand1.png);
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-right: 24px;
+}
+
+.brand2 {
+    position: static;
+    width: 110px;
+    height: 95px;
+
+    background: url(./brand2.png);
+
+}
+
+.brand3 {
+    position: static;
+    width: 110px;
+    height: 95px;
+
+    background: url(./brand3.png);
+
+}
+
+.brand4 {
+    position: static;
+    width: 110px;
+    height: 95px;
+
+    background: url(./brand4.png);
+
+}
+
+.brand5 {
+   position: static;
+    width: 110px;
+    height: 95px;
+
+    background: url(./brand5.png);
+
+}
+
+.brand6 {
+    position: static;
+    width: 110px;
+    height: 95px;
+
+    background: url(./brand6.png);
+}
+

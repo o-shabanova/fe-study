@@ -1,0 +1,59 @@
+
+body {
+    background-color: bisque;
+    color: rgb(0,95,107);
+}
+h3 {
+    margin: 0;
+}
+
+p {
+    margin-top: 0;
+}
+
+
+
+
+.contaire-container {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 350px 350px 350px 350px;
+    max-width: 1200px;
+}
+
+.feature, .cta {
+    grid-column: span 12;
+}
+.specials, .amazing, .photos, .news {
+    grid-column: span 6;
+}
+.feature {
+    background-image: url(https://prod-virtuoso.dotcmscloud.com/dA/188da7ea-f44f-4b9c-92f9-6a65064021c1/heroImage1/PowerfulReasons_hero.jpg);
+    background-position: bottom left;
+}
+.photos {
+    background-image: url(https://prod-virtuoso.dotcmscloud.com/dA/188da7ea-f44f-4b9c-92f9-6a65064021c1/heroImage1/PowerfulReasons_hero.jpg);
+    
+}
+.news, .cta {
+    background-image: url(https://prod-virtuoso.dotcmscloud.com/dA/188da7ea-f44f-4b9c-92f9-6a65064021c1/heroImage1/PowerfulReasons_hero.jpg);
+    display: flex;
+    flex-direction: column;
+}
+.specials {
+    background-image: url(https://prod-virtuoso.dotcmscloud.com/dA/188da7ea-f44f-4b9c-92f9-6a65064021c1/heroImage1/PowerfulReasons_hero.jpg);
+    display: flex;
+    flex-direction: column;
+}
+.amazing {
+    display: flex;
+    flex-direction: column;
+}
+
+@media all and (max-width: 500px) {
+
+}

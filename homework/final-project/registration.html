@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./registration.css">
+
+<body>
+    <div class="registration-block">
+        <form method="post" action="#">
+            <h1>Registration form</h1>
+            <fieldset>
+                <div>
+                    <label for="name">
+                        <b>Name and Lastname:</b>
+                    </label>
+                    <br>
+                    <input type="text" id="name">
+                </div>
+
+                <div>
+                    <label for="choose-image">
+                        <b>Upload your profile picture:</b>
+                    </label>
+                    <br>
+                    <input type="file" name="photo" accept="image/*">
+                </div>
+                <div>
+                    <label for="age">
+                        <b>Age:</b>
+                    </label>
+                    <br>
+                    <input type="text" id="age">
+                </div>
+                <div>
+                    <label for="education">
+                        <b>Education:</b>
+                    </label>
+                    <br>
+                    <input type="text" id="education">
+                </div>
+                <div>
+                    <label for="status">
+                        <b>Status:</b>
+                    </label>
+                    <br>
+                    <input type="text" id="status">
+                </div>
+                <div>
+                    <label for="occupation">
+                        <b>Occupation:</b>
+                    </label>
+                    <br>
+                    <input type="text" id="occupation">
+                </div>
+                <div>
+                    <label for="location">
+                        <b>Location:</b>
+                    </label>
+                    <br>
+                    <input type="text" id="location">
+                </div>
+                <div>
+                    <label for="tech-literte">
+                        <b>Tech literte:</b>
+
+                    </label>
+                    <br>
+                    <input type="text" id="tech-literte">
+                </div>
+                <div>
+                    <b>Please, add some summary about yourself</b>
+                    <br>
+                    <textarea name="comment" cols="40" rows="3"></textarea>
+                </div>
+                <div>
+                    <label for="personality">
+                        <b>Choose three types of your personality:</b>
+                    </label>
+                    <br>
+                    <select size="6" multiple name="personality">
+                        <option disabled>Choose your personality</option>
+                        <option value="Introvert">Introvert</option>
+                        <option selected value="Extrovert">Extrovert</option>
+                        <option value="Thinker">Thinker</option>
+                        <option value="Reader">Reader</option>
+                        <option value="Calm">Calm</option>
+                        <option value="Shy">Shy</option>
+                    </select>
+                </div>
+                <div>
+                    <b>Please, add some Bio</b>
+                    <br>
+                    <textarea name="comment" cols="40" rows="3"></textarea>
+                </div>
+                <div>
+                    <label for="needs">
+                        <b>Choose your core needs:</b>
+                    </label>
+                    <br>
+                    <select size="3" multiple name="needs">
+                        <option disabled>Choose your core needs</option>
+                        <option value="need1">Need to find people with similar skills that can help her tackle company goals.</option>
+                        <option value="need2">View all her hirings in an overview.</option>
+                        <option value="need3">The price of the service is very important.</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="frustrations">
+                        <b>What kind of frustrations is close to you:</b>
+                    </label>
+                    <br>
+                    <select size="3" multiple name="frustrations">
+                        <option disabled>Choose frustrations</option>
+                        <option value="frustration1">Price is high related to quality they provide.</option>
+                        <option value="frustration2">Currently finds perect people from past work relations, family, friends and within my circle and
+                            online which is tedious.</option>
+                        <option value="frustration3">Not much choice and comparison not available.</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="brands">
+                        <b>Please, choose brands</b>
+                    </label>
+                    <br>
+                    <select size="1" multiple name="brands">
+                        <option disabled>Choose brands</option>
+                        <option class="brand1" value="brand1">
+                        </option>
+                        <option class="brand2" value="brand2"></option>
+                        <option class="brand3" value="brand3"></option>
+                        <option class="brand4" value="brand4"></option>
+                        <option class="brand5" value="brand5"></option>
+                        <option class="brand6" value="brand6"></option>
+                    </select>
+                </div>
+                <div>
+                    <label for="payment">
+                        <b>What payment medium do you prefer?</b>
+                    </label>
+                    <br>
+                    <select size="2" multiple name="payment">
+                        <option disabled>Choose payment medium</option>
+                        <option class="payment1" value="payment1">Cash/Cheque
+                        </option>
+                        <option class="payment2" value="payment2">Digital Payment</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="platform">
+                        <b>What platform do you prefer?</b>
+                    </label>
+                    <br>
+                    <select size="2" multiple name="payment">
+                        <option disabled>Choose platform</option>
+                        <option class="platform1" value="platform1">Website
+                        </option>
+                        <option class="platform2" value="platform2">Mobile App</option>
+                    </select>
+                </div>
+                <button>Submit</button>
+
+
+
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>

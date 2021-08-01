@@ -49,7 +49,7 @@ body {
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 0px 29px;
+    margin-right: 29px;
 }
 
 
@@ -77,7 +77,7 @@ body {
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 32px 0px;
+    margin-bottom: 32px;
     
 }
 .user-name {
@@ -103,7 +103,7 @@ body {
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 36px 0px;
+    margin-bottom: 36px;
 }
 .ellipse-1 {
     /* Ellipse 1 */
@@ -119,7 +119,7 @@ body {
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: 36px 0px;
+    margin-bottom: 36px;
    
 }
 .details {
@@ -141,7 +141,7 @@ body {
     flex: none;
     order: 2;
     flex-grow: 0;
-    margin: 36px 0px;
+    margin: 0px 42.5px;
 }
 
 
@@ -162,7 +162,10 @@ body {
     order: 0;
     align-self: flex-start;
     flex-grow: 0;
-    margin: 16px 0px;
+
+}
+.row-item1, .row-item2, .row-item3, .row-item4, .row-item5 {
+    margin-bottom: 16px;
 }
 .row-item-name {
     /* Age, Education, Status, Occupation, Location, Tech literte */
@@ -228,7 +231,6 @@ body {
     order: 1;
     align-self: center;
     flex-grow: 0;
-    margin: 16px 0px;
 }
 
 
@@ -252,7 +254,6 @@ body {
     order: 2;
     align-self: center;
     flex-grow: 0;
-    margin: 16px 0px;
 }
 
 .row-item4 {
@@ -273,7 +274,6 @@ body {
     order: 3;
     align-self: center;
     flex-grow: 0;
-    margin: 16px 0px;
 }
 
 
@@ -296,7 +296,6 @@ body {
     order: 4;
     align-self: center;
     flex-grow: 0;
-    margin: 16px 0px;
 }
 
 
@@ -320,7 +319,7 @@ body {
     order: 5;
     align-self: center;
     flex-grow: 0;
-    margin: 16px 0px;
+    margin: 0px 0px 0px 0px;
 }
 
     
@@ -347,7 +346,7 @@ body {
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: 32px 0px;
+    margin-bottom: 32px;
 }
 
 .content {
@@ -362,7 +361,7 @@ body {
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 0px 24px;
+    margin-right: 24px;
 }
 .content-text {
     /* Content */
@@ -385,7 +384,7 @@ body {
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: 0px 24px;
+   
 }
 .left-container-block-2 {
     /* Block 2 */
@@ -409,7 +408,6 @@ body {
     flex: none;
     order: 2;
     flex-grow: 0;
-    margin: 32px 0px;
 }
 .personality {
     /* Personality */
@@ -433,7 +431,7 @@ body {
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 24px 0px;
+    margin-bottom: 24px;
 }
 .personality-characteristic {
     /* Introvert,Thinker, Calm  */
@@ -454,7 +452,6 @@ body {
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: 24px 0px;
 }
 .characteristic1-frame {
     /* Frame 1 */
@@ -479,7 +476,7 @@ body {
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 0px 12px;
+    margin-right: 12px;
 }
 
 .characteristic2-frame {
@@ -505,7 +502,7 @@ body {
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: 0px 12px;
+    margin-right: 12px;
 }
 
 .characteristic3-frame {
@@ -531,7 +528,6 @@ body {
     flex: none;
     order: 2;
     flex-grow: 0;
-    margin: 0px 12px;
 }
 .characteristic1,.characteristic2, .characteristic3  {
     /* Introvert */
@@ -553,7 +549,6 @@ body {
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 0px 10px;
 }
 
 .right-container {
@@ -570,7 +565,6 @@ body {
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: 0px 29px;
 }
 
 .right-container-block1 {
@@ -597,15 +591,13 @@ body {
     order: 0;
     align-self: center;
     flex-grow: 0;
-    margin: 32px 0px;
+    margin-bottom: 32px;
 }
 .bio {
     /* Bio */
     position: static;
     width: 57px;
     height: 49px;
-    left: 32px;
-    top: 32px;
 
     font-family: Manrope;
     font-style: normal;
@@ -621,15 +613,13 @@ body {
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 24px 0px;
+    margin-bottom: 24px;
 }
 .bio-content {
     /* Content */
     position: static;
     width: 969px;
     height: 132px;
-    left: 32px;
-    top: 105px;
 
     font-family: Manrope;
     font-style: normal;
@@ -645,7 +635,6 @@ body {
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: 24px 0px;
 }
 
 .right-container-block2 {
@@ -660,8 +649,6 @@ body {
     position: static;
     width: 1075px;
     height: 355px;
-    left: 0px;
-    top: 301px;
 
     /* White */
     background: #FFFFFF;
@@ -672,15 +659,13 @@ body {
     order: 1;
     align-self: center;
     flex-grow: 0;
-    margin: 32px 0px;
+    margin-bottom: 32px;
 }
 .core-needs {
     /* Core needs */
     position: static;
     width: 202px;
     height: 49px;
-    left: 32px;
-    top: 32px;
 
     font-family: Manrope;
     font-style: normal;
@@ -696,7 +681,7 @@ body {
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 24px 0px;
+    margin-bottom: 24px;
 }
 .block2-list {
     /* List */
@@ -710,14 +695,11 @@ body {
     position: static;
     width: 1011px;
     height: 218px;
-    left: 32px;
-    top: 105px;
 
     /* Inside Auto Layout */
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: 24px 0px;
 }
 .block2-list-item1 {
     /* Bullet */
@@ -739,7 +721,6 @@ body {
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 16px 0px;
 }
 .dot {
     /* • */
@@ -765,15 +746,13 @@ body {
     order: 0;
     align-self: flex-start;
     flex-grow: 0;
-    margin: 0px 16px;
+    margin-right: 16px;
 }
 .block2-list-item1-content {
     /* Content */
     position: static;
     width: 969px;
     height: 88px;
-    left: 42px;
-    top: 0px;
 
     font-family: Manrope;
     font-style: normal;
@@ -790,7 +769,6 @@ body {
     order: 1;
     align-self: center;
     flex-grow: 0;
-    margin: 0px 16px;
 }
 
 .block2-list-item2 {
@@ -805,15 +783,12 @@ body {
     position: static;
     width: 1011px;
     height: 49px;
-    left: 0px;
-    top: 104px;
 
 
     /* Inside Auto Layout */
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: 16px 0px;
 }
 
 .block2-list-item2-content {
@@ -821,8 +796,6 @@ body {
     position: static;
     width: 969px;
     height: 44px;
-    left: 42px;
-    top: 2.5px;
 
     font-family: Manrope;
     font-style: normal;
@@ -841,7 +814,6 @@ body {
     order: 1;
     align-self: center;
     flex-grow: 0;
-    margin: 0px 16px;
 }
 
 .block2-list-item3 {
@@ -856,15 +828,12 @@ body {
     position: static;
     width: 1011px;
     height: 49px;
-    left: 0px;
-    top: 169px;
 
 
     /* Inside Auto Layout */
     flex: none;
     order: 2;
     flex-grow: 0;
-    margin: 16px 0px;
 }
 
 .block2-list-item3-content {
@@ -873,8 +842,6 @@ body {
     position: static;
     width: 969px;
     height: 44px;
-    left: 42px;
-    top: 2.5px;
 
     font-family: Manrope;
     font-style: normal;
@@ -886,14 +853,11 @@ body {
     /* Text */
     color: #3A3D5B;
 
-
     /* Inside Auto Layout */
     flex: none;
     order: 1;
     align-self: center;
     flex-grow: 0;
-    margin: 0px 16px;
-
 }
 
 .right-container-block3 {
@@ -909,8 +873,6 @@ body {
     position: static;
     width: 1075px;
     height: 347px;
-    left: 0px;
-    top: 688px;
 
     /* White */
 
@@ -923,7 +885,7 @@ body {
     order: 2;
     align-self: center;
     flex-grow: 0;
-    margin: 32px 0px;
+    margin-bottom: 32px;
 }
 .frustrations {
     /* Frustrations */
@@ -931,8 +893,6 @@ body {
     position: static;
     width: 220px;
     height: 49px;
-    left: 32px;
-    top: 32px;
 
     font-family: Manrope;
     font-style: normal;
@@ -944,13 +904,12 @@ body {
 
     color: #1D2254;
 
-
     /* Inside Auto Layout */
 
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 24px 0px;
+    margin-bottom: 26.5px;
 }
 .block3-list {
     /* Block 3 List */
@@ -965,15 +924,12 @@ body {
     position: static;
     width: 1011px;
     height: 210px;
-    left: 32px;
-    top: 105px;
 
     /* Inside Auto Layout */
 
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: 24px 0px;
 }
 .block3-list-item1 {
     /* Bullet 1*/
@@ -997,7 +953,6 @@ body {
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 12px 0px;
 }
 
 .block3-list-item1-content {
@@ -1006,8 +961,6 @@ body {
     position: static;
     width: 969px;
     height: 44px;
-    left: 42px;
-    top: 2.5px;
 
     font-family: Manrope;
     font-style: normal;
@@ -1026,7 +979,6 @@ body {
     order: 1;
     align-self: center;
     flex-grow: 0;
-    margin: 0px 16px;
 }
 .block3-list-item2 {
     /* Bullet 2*/
@@ -1042,8 +994,6 @@ body {
     position: static;
     width: 1011px;
     height: 88px;
-    left: 0px;
-    top: 61px;
 
 
     /* Inside Auto Layout */
@@ -1051,7 +1001,6 @@ body {
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: 12px 0px;
 }
 .block3-list-item2-content {
     /* Content */
@@ -1059,8 +1008,6 @@ body {
     position: static;
     width: 969px;
     height: 88px;
-    left: 42px;
-    top: 0px;
 
     font-family: Manrope;
     font-style: normal;
@@ -1076,7 +1023,6 @@ body {
     order: 1;
     align-self: center;
     flex-grow: 0;
-    margin: 0px 16px;
 }
 
 
@@ -1093,8 +1039,6 @@ body {
     position: static;
     width: 1011px;
     height: 49px;
-    left: 0px;
-    top: 161px;
 
 
     /* Inside Auto Layout */
@@ -1102,11 +1046,9 @@ body {
     flex: none;
     order: 2;
     flex-grow: 0;
-    margin: 12px 0px;
 }
 .block3-list-item3-content {
 /* Content 3 */
-
 
     position: static;
     width: 969px;
@@ -1121,11 +1063,9 @@ body {
     line-height: 44px;
     /* identical to box height */
 
-
     /* Text */
 
     color: #3A3D5B;
-
 
     /* Inside Auto Layout */
 
@@ -1133,7 +1073,6 @@ body {
     order: 1;
     align-self: center;
     flex-grow: 0;
-    margin: 0px 16px;
 }
 
 .right-container-block4 {
@@ -1149,8 +1088,6 @@ body {
     position: static;
     width: 1075px;
     height: 232px;
-    left: 0px;
-    top: 1067px;
 
     /* White */
 
@@ -1163,7 +1100,7 @@ body {
     order: 3;
     align-self: center;
     flex-grow: 0;
-    margin: 32px 0px;
+    margin-bottom: 32px;
 }
 
 .brands {
@@ -1172,8 +1109,6 @@ body {
     position: static;
     width: 124px;
     height: 49px;
-    left: 32px;
-    top: 32px;
 
     font-family: Manrope;
     font-style: normal;
@@ -1185,13 +1120,12 @@ body {
 
     color: #1D2254;
 
-
     /* Inside Auto Layout */
 
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 24px 0px;
+    margin-bottom: 24px;
 }
 
 .brands-content {
@@ -1210,13 +1144,11 @@ body {
     left: 32px;
     top: 105px;
 
-
     /* Inside Auto Layout */
 
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: 24px 0px;
 }
 
 .brand1 {
@@ -1225,8 +1157,6 @@ body {
     position: static;
     width: 110px;
     height: 95px;
-    left: 0px;
-    top: 0px;
 
     background: url(./brand1.png);
 
@@ -1235,15 +1165,13 @@ body {
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 0px 24px;
+    margin-right: 24px;
 }
 
 .brand2 {
     position: static;
     width: 110px;
     height: 95px;
-    left: 134px;
-    top: 0px;
 
     background: url(./brand2.png);
 
@@ -1252,15 +1180,14 @@ body {
     flex: none;
     order: 2;
     flex-grow: 0;
-    margin: 0px 24px;
+    margin-right: 24px;
+
 }
 
 .brand3 {
     position: static;
     width: 110px;
     height: 95px;
-    left: 268px;
-    top: 0px;
 
     background: url(./brand3.png);
 
@@ -1269,15 +1196,14 @@ body {
     flex: none;
     order: 4;
     flex-grow: 0;
-    margin: 0px 24px;
+    margin-right: 24px;
+
 }
 
 .brand4 {
     position: static;
     width: 110px;
     height: 95px;
-    left: 402px;
-    top: 0px;
 
     background: url(./brand4.png);
 
@@ -1286,15 +1212,14 @@ body {
     flex: none;
     order: 5;
     flex-grow: 0;
-    margin: 0px 24px;
+    margin-right: 24px;
+
 }
 
 .brand5 {
    position: static;
     width: 110px;
     height: 95px;
-    left: 536px;
-    top: 0px;
 
     background: url(./brand5.png);
 
@@ -1303,15 +1228,14 @@ body {
     flex: none;
     order: 6;
     flex-grow: 0;
-    margin: 0px 24px;
+    margin-right: 24px;
+
 }
 
 .brand6 {
     position: static;
     width: 110px;
     height: 95px;
-    left: 670px;
-    top: 0px;
 
     background: url(./brand6.png);
 
@@ -1320,7 +1244,6 @@ body {
     flex: none;
     order: 7;
     flex-grow: 0;
-    margin: 0px 24px;
 }
 
 .row {
@@ -1346,7 +1269,6 @@ body {
     order: 4;
     align-self: flex-start;
     flex-grow: 0;
-    margin: 32px 0px;
 }
 
 .row-block-left {
@@ -1375,6 +1297,7 @@ body {
     flex: none;
     order: 0;
     flex-grow: 0;
+    margin-right: 32px;
 
 }
 
@@ -1397,13 +1320,12 @@ body {
 
     color: #1D2254;
 
-
     /* Inside Auto Layout */
 
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 24px 0px;
+    margin-bottom: 24px;
 }
 
 .payment-frame {
@@ -1428,7 +1350,6 @@ body {
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: 24px 0px;
 }
 
 .payment-group1 {
@@ -1444,13 +1365,12 @@ body {
     left: 0px;
     top: 0px;
 
-
     /* Inside Auto Layout */
 
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 0px 24px;
+    margin-right: 32px;
 }
 
 .payment-icon1 {
@@ -1488,11 +1408,9 @@ body {
     line-height: 33px;
     /* identical to box height */
 
-
     /* Text */
 
     color: #3A3D5B;
-
 
     /* Inside Auto Layout */
 
@@ -1520,7 +1438,7 @@ body {
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: 0px 24px;
+    
 }
 
 .payment-icon2 {
@@ -1597,7 +1515,6 @@ body {
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: 0px 32px;
 }
 
 .platform {
@@ -1625,7 +1542,7 @@ body {
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 24px 0px;
+    margin-bottom: 24px;
 }
 
 .platform-frame {
@@ -1644,13 +1561,11 @@ body {
     left: 32px;
     top: 105px;
 
-
     /* Inside Auto Layout */
 
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: 24px 0px;
 }
 
 .platform-group1{
@@ -1673,7 +1588,7 @@ body {
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 0px 24px;
+    margin-right: 32px;
 }
 
 .platform-icon1 {
@@ -1734,13 +1649,11 @@ body {
     left: 134px;
     top: 0px;
 
-
     /* Inside Auto Layout */
 
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: 0px 24px;
 }
 
 .platform-icon2 {
