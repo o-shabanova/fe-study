@@ -1,0 +1,26 @@
+body {
+    font-family: Tahoma;
+    background:rgb(192,192,192, 0.5);
+    margin: 0;
+}
+h1 {
+    cursor: help;
+    margin: 0;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #5200a5
+}
+form {
+    margin: 0 auto;
+    background: rgba(159, 208, 226, 0.77);
+    width: 480px;
+    height: 530px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.82);
+
+}
+.group {
+    margin: 10px;
+    padding: 5px;
+    text-transform: uppercase;
+}

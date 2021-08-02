@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Converter</title>
+</head>
+
+<body>
+    <h1>Currency Converter</h1>
+    <div>
+        <select>
+            <!-- <option>USD</option>
+            <option>EUR</option> -->
+            <option>UAH</option>
+        </select>
+        <input type="text" id="inputdol" placeholder="введіть суму..." oninput="moneyConverter()" />
+    </div>
+    <div>
+        <select id="out" onchange="moneyConverter()">
+            <option>USD</option>
+            <option>EUR</option>
+            <option>UAH</option>
+        </select>
+        <input type="text" id="output" />
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
