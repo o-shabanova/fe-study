@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/registration.css">
+
+<body>
+    <div class="registration-block">
+        <!-- <form method="post" action="#"> -->
+
+        <center>
+            <h1>Registration form</h1>
+        </center>
+
+        <div class="registration-block-content">
+            <div>
+                <label for="name">
+                    <b>Name and Lastname:</b>
+                </label>
+                <br>
+                <input class="input" type="text" id="name">
+            </div>
+
+            <div>
+                <label for="choose-image">
+                    <b>Upload your profile picture:</b>
+                </label>
+                <br>
+                <input type="file" name="photo" accept="image/*" id="user-photo">
+            </div>
+            <div>
+                <label for="age">
+                    <b>Age:</b>
+                </label>
+                <br>
+                <input class="input" type="text" id="age">
+            </div>
+            <div>
+                <label for="education">
+                    <b>Education:</b>
+                </label>
+                <br>
+                <input class="input" type="text" id="education">
+            </div>
+            <div>
+                <label for="status">
+                    <b>Status:</b>
+                </label>
+                <br>
+                <input class="input" type="text" id="status">
+            </div>
+            <div>
+                <label for="occupation">
+                    <b>Occupation:</b>
+                </label>
+                <br>
+                <input class="input" type="text" id="occupation">
+            </div>
+            <div>
+                <label for="location">
+                    <b>Location:</b>
+                </label>
+                <br>
+                <input class="input" type="text" id="location">
+            </div>
+            <div>
+                <label for="tech-literte">
+                    <b>Tech literte:</b>
+
+                </label>
+                <br>
+                <input class="input" type="text" id="tech-literte">
+            </div>
+            <div>
+                <b>Please, add some summary about yourself</b>
+                <br>
+                <textarea class="text-area" name="comment" id="summary" cols="40" rows="3"></textarea>
+            </div>
+
+
+            <p>
+                <b>Choose three types of your personality</b>
+            </p>
+            <div class="general-div">
+
+                <div>
+                    <input type="checkbox" id="introvert" name="personality-type" checked>
+                    <label for="Introvert" id="introvert-value">Introvert</label>
+
+                </div>
+                <div>
+                    <input type="checkbox" id="extrovert" name="personality-type">
+                    <label for="extrovert" id="extrovert-value">Extrovert</label>
+
+                </div>
+                <div>
+                    <input type="checkbox" id="thinker" name="personality-type">
+                    <label for="thinker" id="thinker-value">Thinker</label>
+
+                </div>
+                <div>
+                    <input type="checkbox" id="reader" name="personality-type">
+                    <label for="reader" id="reader-value">Reader</label>
+
+                </div>
+                <div>
+                    <input type="checkbox" id="calm" name="personality-type">
+                    <label for="calm" id="calm-value">Calm</label>
+
+                </div>
+                <div>
+                    <input type="checkbox" id="shy" name="personality-type">
+                    <label for="shy" id="shy-value">Shy</label>
+
+                </div>
+            </div>
+
+            <p>
+                <b>Please, add some Bio</b>
+            </p>
+            <div>
+
+                <textarea class="text-area" name="comment" id="bio" cols="40" rows="3"></textarea>
+            </div>
+
+            <p>
+                <b>Choose your core needs:</b>
+            </p>
+            <div class="general-div">
+                <div>
+                    <input type="checkbox" id="need1" name="need1" checked>
+                    <label for="need1" id="need1-value">Need to find people with similar skills that can help her tackle company goals.</label>
+
+                </div>
+                <div>
+                    <input type="checkbox" id="need2" name="need2">
+                    <label for="need2" id="need2-value">View all her hirings in an overview.</label>
+
+                </div>
+                <div>
+                    <input type="checkbox" id="need3" name="need3">
+                    <label for="need3" id="need3-value">The price of the service is very important.</label>
+
+                </div>
+            </div>
+
+            <p>
+                <b>What kind of frustrations is close to you:</b>
+            </p>
+            <div class="general-div">
+                <div>
+                    <input type="checkbox" id="frustration1" name="frustration1" checked>
+                    <label for="frustration1" id="frustration1-value">Price is high related to quality they provide.</label>
+
+                </div>
+                <div>
+                    <input type="checkbox" id="frustration2" name="frustration2">
+                    <label for="frustration2" id="frustration2-value">Currently finds perect people from past work relations, family, friends and within my circle and online
+                        which is tedious.</label>
+
+                </div>
+                <div>
+                    <input type="checkbox" id="frustration3" name="frustration3">
+                    <label for="frustration3" id="frustration3-value">Not much choice and comparison not available.</label>
+
+                </div>
+            </div>
+
+
+            <p>
+                <b>Please, choose brands</b>
+            </p>
+            <div class="general-div">
+                <div>
+                    <input type="checkbox" id="brand1" name="nasa" checked>
+                    <label for="nasa" id="brand1-value">Nasa</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="brand2" name="huawei">
+                    <label for="huawei" id="brand2-value">Huawei</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="brand3" name="facebook">
+                    <label for="facebook" id="brand3-value">Facebook</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="brand4" name="youtube">
+                    <label for="youtube" id="brand4-value">YouTube</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="brand5" name="instagram">
+                    <label for="instagram" id="brand5-value">Instagram</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="brand6" name="belle">
+                    <label for="belle" id="brand6-value">Belle</label>
+                </div>
+            </div>
+
+
+            <p>
+                <b>What payment medium do you prefer?</b>
+            </p>
+            <div class="general-div">
+                <div>
+                    <input type="checkbox" id="payment1" name="payment1" checked>
+                    <label for="payment1" id="payment1-value">Cash/Cheque</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="payment2" name="payment2">
+                    <label for="payment2" id="payment2-value">Digital Payment</label>
+                </div>
+            </div>
+
+            <p>
+                <b>What platform do you prefer?</b>
+            </p>
+            <div class="general-div">
+                <div>
+                    <input type="checkbox" id="platform1" name="platform1" checked>
+                    <label for="website" id="platform1-value">Website</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="platform2" name="platform2">
+                    <label for="Mobile" id="platform2-value">Mobile App</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="button">
+            <button class="submit-button" id="submit" onclick="collectAllData()">Submit</button>
+            </divr>
+
+            <!-- </form> -->
+        </div>
+
+        <script src="../js/registration.js"></script>
+</body>
+
+</html>
